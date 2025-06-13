@@ -48,7 +48,7 @@ cargo run --release
 - **Proxy issues**: Set `http_proxy` and `https_proxy` environment variables
 - **Outdated Rust**: Update with `rustup update`
 - **Compiler errors**: Ensure you have `build-essential` (Linux) or Xcode (macOS) installed
-```
+
 
 ## Key Notes:
 1. The installer automatically includes:
@@ -64,5 +64,5 @@ cargo run --release
 3. The `--release` flag produces optimized builds (slower compilation but faster execution)
 
 4. Uninstall anytime with:
-```bash
-rustup self uninstall
+    bash
+    rustup self uninstall

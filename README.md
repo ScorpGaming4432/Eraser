@@ -4,7 +4,8 @@ Markdown editing software built in rust.
 # Rust Project Setup Guide
 
 ## 1. Install Rust Compiler and Tools
-Follow the Guide from https://www.rust-lang.org/tools/install`
+Follow the Guide from https://www.rust-lang.org/tools/install
+
 ### Verify Installation
 ```bash
 rustc --version
@@ -18,7 +19,7 @@ You should see version numbers for each tool.
 ## 2. Compile a GitHub Project
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/projectname.git
+git clone https://github.com/ScorpGaming4432/Eraser.git
 cd projectname
 ```
 
@@ -32,7 +33,7 @@ cargo build --release
 ```bash
 cargo run --release
 ```
-- Or find the binary in `target/release/projectname`
+- Or find the binary in `target/release/Eraser`
 
 ---
 
@@ -57,5 +58,7 @@ cargo run --release
 3. The `--release` flag produces optimized builds (slower compilation but faster execution)
 
 4. Uninstall anytime with:
-    bash
-    rustup self uninstall
+```bash
+rustup self uninstall
+```
+

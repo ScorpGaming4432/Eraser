@@ -4,7 +4,7 @@ Markdown editing software built in rust.
 # Rust Project Setup Guide
 
 ## 1. Install Rust Compiler and Tools
-### Windows/Linux/macOS
+### Linux
 Run this command in your terminal (requires internet connection):
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

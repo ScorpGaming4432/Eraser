@@ -1,63 +1,63 @@
 # Eraser
-Markdown editing software built in rust.
+Oprogramowanie do edytowania plików Markdown napisane w języku Rust.
 
-# Rust Project Setup Guide
+# Przewodnik konfiguracji projektu w Rust  
 
-## 1. Install Rust Compiler and Tools
-Follow the Guide from https://www.rust-lang.org/tools/install
+## 1. Instalacja kompilatora Rust i narzędzi  
+Postępuj zgodnie z instrukcją na https://www.rust-lang.org/tools/install  
 
-### Verify Installation
-```bash
-rustc --version
-cargo --version
-rustup --version
-```
-You should see version numbers for each tool.
+### Weryfikacja instalacji  
+```bash  
+rustc --version  
+cargo --version  
+rustup --version  
+```  
+> Zweryfikuj wersję dla każdego narzędzia.
 
----
+---  
 
-## 2. Compile a GitHub Project
-1. Clone the repository:
-```bash
-git clone https://github.com/ScorpGaming4432/Eraser.git
-cd projectname
-```
+## 2. Kompilacja projektu z GitHub  
+1. Sklonuj repozytorium:  
+```bash  
+git clone https://github.com/ScorpGaming4432/Eraser.git  
+cd projectname  
+```  
+> Lub pobierz plik `.zip` z tego samego linku
 
-2. Build the project:
-```bash
-cargo build --release
-```
-- This downloads dependencies and compiles optimized binaries
+2. Zbuduj projekt:  
+```bash  
+cargo build --release  
+```  
+- To polecenie pobierze zależności i skompiluje zoptymalizowane pliki binarne  
 
-3. Run the project:
-```bash
-cargo run --release
-```
-- Or find the binary in `target/release/Eraser`
+3. Uruchom projekt:  
+```bash  
+cargo run --release  
+```  
+- Lub znajdź plik wykonywalny w `target/release/Eraser`  
 
----
+---  
 
-## Troubleshooting
-- **Permission errors**: Prepend commands with `sudo` on Linux/macOS
-- **Proxy issues**: Set `http_proxy` and `https_proxy` environment variables
-- **Outdated Rust**: Update with `rustup update`
-- **Compiler errors**: Ensure you have `build-essential` (Linux) or Xcode (macOS) installed
+## Rozwiązywanie problemów  
+- **Błędy uprawnień**: Dodaj `sudo` przed poleceniami w systemach Linux/macOS  
+- **Problemy z proxy**: Ustaw zmienne środowiskowe `http_proxy` i `https_proxy`  
+- **Przestarzała wersja Rust**: Zaktualizuj za pomocą `rustup update`  
+- **Błędy kompilatora**: Upewnij się, że masz zainstalowane `build-essential` (Linux) lub Xcode (macOS)  
 
+## Kluczowe informacje:  
+1. Instalator automatycznie zawiera:  
+   - `rustc` (kompilator)  
+   - `cargo` (menedżer pakietów)  
+   - `rustup` (menedżer toolchain)  
 
-## Key Notes:
-1. The installer automatically includes:
-   - `rustc` (compiler)
-   - `cargo` (package manager)
-   - `rustup` (toolchain manager)
+2. Kompilacja projektu obejmuje:  
+   - Rozwiązywanie zależności  
+   - Kompilację przyrostową  
+   - Generowanie plików binarnych  
 
-2. Project compilation handles:
-   - Dependency resolution
-   - Incremental compilation
-   - Binary generation
+3. Flaga `--release` tworzy zoptymalizowane buildy (wolniejsza kompilacja, ale szybsze wykonanie)  
 
-3. The `--release` flag produces optimized builds (slower compilation but faster execution)
-
-4. Uninstall anytime with:
-```bash
-rustup self uninstall
+4. Możesz odinstalować Rust w dowolnym momencie za pomocą:  
+```bash  
+rustup self uninstall  
 ```

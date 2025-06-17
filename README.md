@@ -1,3 +1,5 @@
+[Wersja Polska README](ReadmeEN.md)
+
 # Eraser
 Markdown editing software built in rust.
 

@@ -22,7 +22,7 @@ You should see version numbers for each tool.
 1. Clone the repository:
 ```bash
 git clone https://github.com/ScorpGaming4432/Eraser.git
-cd projectname
+cd Eraser
 ```
 
 2. Build the project:
